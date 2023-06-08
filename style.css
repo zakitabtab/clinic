@@ -1,0 +1,82 @@
+/* main */ 
+.main{
+    background-color:rgba(45, 186, 207, 0.3) ;
+    height: 100vh;
+}
+
+.btn{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+/*features */
+.features{
+    background-color:rgba(45, 186, 207, 0.3) ;
+}
+/* x ray part */
+.ray{
+    background-color:rgba(45, 186, 207, 0.3) ;
+}
+/* team */ 
+.team{
+    background-color:rgba(45, 186, 207, 0.3) ;
+
+}
+/* phone */ 
+.info{
+    background-color:rgba(45, 186, 207, 0.3) ;
+
+}
+/* footer */
+.footer{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+@media (max-width: 768px) {
+    .main{
+        height: 180vh;
+    }
+}
+  
+  
+  /* Style rules for devices with a screen width of 768 pixels or more (e.g. tablets and desktops) */
+  @media (min-width: 768px) {
+    /* Add styles here */
+  }
+  
+  /* Style rules for devices with a screen width between 768 and 992 pixels (e.g. small tablets) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .main{
+        height: 180vh;
+    }
+  }
+  
+  /* Style rules for devices with a screen width between 992 and 1200 pixels (e.g. larger tablets) */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* Add styles here */
+  }
+  
+  /* Style rules for devices with a screen width of 1200 pixels or more (e.g. desktops) */
+  @media (min-width: 1200px) {
+    /* Add styles here */
+  }
+  
+  /* Style rules for devices in portrait orientation */
+  @media (orientation: portrait) {
+    /* Add styles here */
+  }
+  
+  /* Style rules for devices in landscape orientation */
+  @media (orientation: landscape) {
+    /* Add styles here */
+  }
+  
+ 
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    
+  }
+  
